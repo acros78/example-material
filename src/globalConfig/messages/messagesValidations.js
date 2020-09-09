@@ -1,0 +1,26 @@
+const messagesValidations = {
+  "string.base": `Solo están permitidos valores alfabéticos`,
+  "string.empty": `El campo no puede estar vacío`,
+  "string.base64.required": `No se ha agregado ningún archivo`,
+  "string.min": `La logitud mínima del campo es   {#limit}`,
+  "string.max": `La longitud máxima del campo es  {#limit}`,
+  "string.required": `Campo requerido`,
+  "string.alphanum": `Solo están permitidos valores alfanuméricos`,
+  "string.email":
+    'El formato del correo es inválido, debe contener "@" & ".com',
+  "string.nextDateDonwload": "Seleccione una fecha",
+  "string.regex": "Solo están permitidos valores alfabéticos",
+  "string.period": "Debe seleccionar una opción",
+  "any.only": "El campo debe ser igual al password",
+  "any.required": "Seleccione una opción",
+  "array.min": "Debe seleccionar al menos una opción",
+  "number.base": `El campo es numérico y no puede estar vacío`,
+  "number.empty": "El campo no puede estar vacío",
+  "number.min": `El valor mínimo es  {#limit}`,
+  "number.max": `El valor máximo es  {#limit}`,
+  "number.integer": "No se aceptan decimales",
+  "number.positive": "El número ingresado debe ser mayor a 0",
+  "string.pattern.base": "Solo están permitidos valores alfabéticos ",
+  "boolean.base": `Campo requerido`,
+};
+export default messagesValidations;
